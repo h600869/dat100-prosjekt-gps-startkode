@@ -11,15 +11,13 @@ public class GPSPoint {
 	private double elevation;
 	
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
-
-		// TODO - konstruktør
+		
 		this.time = time;
 		this.latitude = latitude;
 		this.longitude= longitude;
 		this.elevation= elevation;
 		
-		// Fjern linjene med throw new etterhvert som metodene implementeres
-		throw new UnsupportedOperationException(TODO.construtor("GPSPoint"));
+		
 
 	}
 
@@ -32,7 +30,7 @@ public class GPSPoint {
 
 	public void setTime(int time) {
 				
-		throw new UnsupportedOperationException(TODO.method());
+		this.time = time;
 
 	}
 
@@ -44,31 +42,31 @@ public class GPSPoint {
 
 	public void setLatitude(double latitude) {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		this.latitude=latitude;
 		
 	}
 
 	public double getLongitude() {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		return longitude;
 		
 	}
 
 	public void setLongitude(double longitude) {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		this.longitude=longitude;
 		
 	}
 
 	public double getElevation() {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		return elevation;
 		
 	}
 
 	public void setElevation(double elevation) {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		this.elevation=elevation;
 		
 	}
 	
