@@ -72,13 +72,8 @@ public class GPSPoint {
 	
 	public String toString() {
 		
-		// vet ikke hva jeg skal gjøre her
-		
-		// TODO - start
-
-		throw new UnsupportedOperationException(TODO.method());
-
-		// TODO - slutt
+		return time + " " +"("+ latitude  +","+ longitude + ")" +" "
+	            + elevation;
 		
 	}
 }
