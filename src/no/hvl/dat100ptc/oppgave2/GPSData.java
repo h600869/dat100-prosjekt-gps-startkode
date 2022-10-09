@@ -12,8 +12,9 @@ public class GPSData {
 
 		// TODO - START
 		
-		throw new UnsupportedOperationException(TODO.construtor("GPSData"));
-
+		gpspoints = new GPSPoint[n];
+		antall = 0;
+		
 		// TODO - SLUTT
 	}
 
