@@ -72,7 +72,7 @@ public class GPSPoint {
 	
 	public String toString() {
 		
-		String str;
+		// vet ikke hva jeg skal gjøre her
 		
 		// TODO - start
 
