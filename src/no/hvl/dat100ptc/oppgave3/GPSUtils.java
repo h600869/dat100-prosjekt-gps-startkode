@@ -28,8 +28,15 @@ public class GPSUtils {
 
 		// TODO - START
 
-		throw new UnsupportedOperationException(TODO.method());
+		min = da[da.length-1];
+		
+		for (double a : da) {
+			if (a<min) {
+				min = a;
+			}
+		}
 
+		return min;
 		// TODO - SLUT
 
 	}
@@ -57,8 +64,14 @@ public class GPSUtils {
 
 		// TODO - START
 
-		throw new UnsupportedOperationException(TODO.method());
+		double [] longitudes = new double [gpspoints.length];
 		
+		for (int c = 0; c<gpspoints.length; c++) {
+			longitudes [c] = gpspoints[c].getLongitude();
+			
+		}
+		
+		return longitudes;
 		// TODO - SLUTT
 
 	}
