@@ -16,7 +16,7 @@ public class GPSPoint {
 		this.latitude = latitude;
 		this.longitude= longitude;
 		this.elevation= elevation;
-		
+		// Martin er her :)
 		
 
 	}
