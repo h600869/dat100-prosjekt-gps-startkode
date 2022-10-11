@@ -12,13 +12,17 @@ public class GPSPoint {
 	
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
 		
+		/*
 		this.time = time;
 		this.latitude = latitude;
-		this.longitude= longitude;
-		this.elevation= elevation;
-		// Martin er her :)
-		
-
+		this.longitude = longitude;
+		this.elevation = elevation;
+		*/
+		setTime(time);
+		setLatitude(latitude);
+		setLongitude(longitude);
+		setElevation(elevation);
+		toString();
 	}
 
 	// TODO - get/set metoder
@@ -42,7 +46,7 @@ public class GPSPoint {
 
 	public void setLatitude(double latitude) {
 		
-		this.latitude=latitude;
+		this.latitude = latitude;
 		
 	}
 
@@ -54,7 +58,7 @@ public class GPSPoint {
 
 	public void setLongitude(double longitude) {
 		
-		this.longitude=longitude;
+		this.longitude = longitude;
 		
 	}
 
@@ -66,14 +70,14 @@ public class GPSPoint {
 
 	public void setElevation(double elevation) {
 		
-		this.elevation=elevation;
+		this.elevation = elevation;
 		
 	}
 	
 	public String toString() {
 		
 		return getTime() + " (" + getLatitude()  + "," + getLongitude() + ") "
-	            + getElevation() + "\n";
+		        + getElevation() + "\n";
 		
 	}
 }
