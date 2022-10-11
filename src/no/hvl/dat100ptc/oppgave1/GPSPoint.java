@@ -22,7 +22,7 @@ public class GPSPoint {
 		setLatitude(latitude);
 		setLongitude(longitude);
 		setElevation(elevation);
-		toString();
+		
 	}
 
 	// TODO - get/set metoder
