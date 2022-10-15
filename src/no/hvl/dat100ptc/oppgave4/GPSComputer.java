@@ -178,4 +178,5 @@ public class GPSComputer {
 		System.out.print("Max speed      :");System.out.println(GPSUtils.formatDouble(maxSpeed()));
 		System.out.print("Average speed  :");System.out.println(GPSUtils.formatDouble(averageSpeed()));
 		System.out.print("Energy         :");System.out.println(GPSUtils.formatDouble(totalKcal(WEIGHT)));
-}}
+	}
+}
